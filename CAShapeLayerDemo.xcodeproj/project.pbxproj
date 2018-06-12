@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E259E171F19EFD7002F9105 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E259E161F19EFD7002F9105 /* main.m */; };
+		4E259E1A1F19EFD7002F9105 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E259E191F19EFD7002F9105 /* AppDelegate.m */; };
+		4E259E1D1F19EFD7002F9105 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E259E1C1F19EFD7002F9105 /* ViewController.m */; };
+		4E259E201F19EFD7002F9105 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E259E1E1F19EFD7002F9105 /* Main.storyboard */; };
+		4E259E221F19EFD7002F9105 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E259E211F19EFD7002F9105 /* Assets.xcassets */; };
+		4E259E251F19EFD7002F9105 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E259E231F19EFD7002F9105 /* LaunchScreen.storyboard */; };
+		4E259E301F19EFD7002F9105 /* CAShapeLayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E259E2F1F19EFD7002F9105 /* CAShapeLayerDemoTests.m */; };
+		4E259E3B1F19EFD7002F9105 /* CAShapeLayerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E259E3A1F19EFD7002F9105 /* CAShapeLayerDemoUITests.m */; };
+		4E259E4B1F19F064002F9105 /* CAShapeLayer+ViewMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E259E4A1F19F064002F9105 /* CAShapeLayer+ViewMask.m */; };
+		4E69C8211F3D4F82008CE2ED /* MaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E69C8201F3D4F82008CE2ED /* MaskViewController.m */; };
+		4E69C8241F3D4FC1008CE2ED /* CircleProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E69C8231F3D4FC1008CE2ED /* CircleProgressViewController.m */; };
+		4E69C8271F3D4FD2008CE2ED /* ARCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E69C8261F3D4FD2008CE2ED /* ARCViewController.m */; };
+		4E69C82A1F3D52B7008CE2ED /* ColoredCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E69C8291F3D52B7008CE2ED /* ColoredCircleViewController.m */; };
+		4E69C82E1F3D5886008CE2ED /* ColoredCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E69C82D1F3D5886008CE2ED /* ColoredCircleProgressView.m */; };
+		4ED233181F1C4C2900F58D4F /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED233171F1C4C2900F58D4F /* CircleView.m */; };
+		4ED2331B1F1C918000F58D4F /* sunrise.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4ED2331A1F1C918000F58D4F /* sunrise.jpg */; };
+		4ED2331F1F1C949000F58D4F /* ArcProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED2331E1F1C949000F58D4F /* ArcProgress.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E259E2C1F19EFD7002F9105 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E259E0A1F19EFD7002F9105 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E259E111F19EFD7002F9105;
+			remoteInfo = CAShapeLayerDemo;
+		};
+		4E259E371F19EFD7002F9105 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E259E0A1F19EFD7002F9105 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E259E111F19EFD7002F9105;
+			remoteInfo = CAShapeLayerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E259E121F19EFD7002F9105 /* CAShapeLayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAShapeLayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E259E161F19EFD7002F9105 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E259E181F19EFD7002F9105 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E259E191F19EFD7002F9105 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E259E1B1F19EFD7002F9105 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4E259E1C1F19EFD7002F9105 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E259E1F1F19EFD7002F9105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E259E211F19EFD7002F9105 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E259E241F19EFD7002F9105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E259E261F19EFD7002F9105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E259E2B1F19EFD7002F9105 /* CAShapeLayerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAShapeLayerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E259E2F1F19EFD7002F9105 /* CAShapeLayerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAShapeLayerDemoTests.m; sourceTree = "<group>"; };
+		4E259E311F19EFD7002F9105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E259E361F19EFD7002F9105 /* CAShapeLayerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAShapeLayerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E259E3A1F19EFD7002F9105 /* CAShapeLayerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAShapeLayerDemoUITests.m; sourceTree = "<group>"; };
+		4E259E3C1F19EFD7002F9105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E259E491F19F064002F9105 /* CAShapeLayer+ViewMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+ViewMask.h"; sourceTree = "<group>"; };
+		4E259E4A1F19F064002F9105 /* CAShapeLayer+ViewMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+ViewMask.m"; sourceTree = "<group>"; };
+		4E69C81F1F3D4F82008CE2ED /* MaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskViewController.h; sourceTree = "<group>"; };
+		4E69C8201F3D4F82008CE2ED /* MaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskViewController.m; sourceTree = "<group>"; };
+		4E69C8221F3D4FC1008CE2ED /* CircleProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProgressViewController.h; sourceTree = "<group>"; };
+		4E69C8231F3D4FC1008CE2ED /* CircleProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgressViewController.m; sourceTree = "<group>"; };
+		4E69C8251F3D4FD2008CE2ED /* ARCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCViewController.h; sourceTree = "<group>"; };
+		4E69C8261F3D4FD2008CE2ED /* ARCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARCViewController.m; sourceTree = "<group>"; };
+		4E69C8281F3D52B7008CE2ED /* ColoredCircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredCircleViewController.h; sourceTree = "<group>"; };
+		4E69C8291F3D52B7008CE2ED /* ColoredCircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredCircleViewController.m; sourceTree = "<group>"; };
+		4E69C82C1F3D5886008CE2ED /* ColoredCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredCircleProgressView.h; sourceTree = "<group>"; };
+		4E69C82D1F3D5886008CE2ED /* ColoredCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredCircleProgressView.m; sourceTree = "<group>"; };
+		4ED233161F1C4C2900F58D4F /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		4ED233171F1C4C2900F58D4F /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		4ED2331A1F1C918000F58D4F /* sunrise.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sunrise.jpg; sourceTree = "<group>"; };
+		4ED2331D1F1C949000F58D4F /* ArcProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcProgress.h; sourceTree = "<group>"; };
+		4ED2331E1F1C949000F58D4F /* ArcProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcProgress.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E259E0F1F19EFD7002F9105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E259E281F19EFD7002F9105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E259E331F19EFD7002F9105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E259E091F19EFD7002F9105 = {
+			isa = PBXGroup;
+			children = (
+				4E259E141F19EFD7002F9105 /* CAShapeLayerDemo */,
+				4E259E2E1F19EFD7002F9105 /* CAShapeLayerDemoTests */,
+				4E259E391F19EFD7002F9105 /* CAShapeLayerDemoUITests */,
+				4E259E131F19EFD7002F9105 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E259E131F19EFD7002F9105 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E259E121F19EFD7002F9105 /* CAShapeLayerDemo.app */,
+				4E259E2B1F19EFD7002F9105 /* CAShapeLayerDemoTests.xctest */,
+				4E259E361F19EFD7002F9105 /* CAShapeLayerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E259E141F19EFD7002F9105 /* CAShapeLayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4E69C82F1F3D58FB008CE2ED /* CustomProgressView */,
+				4E69C81E1F3D4F2A008CE2ED /* ProgressVC */,
+				4E259E181F19EFD7002F9105 /* AppDelegate.h */,
+				4E259E191F19EFD7002F9105 /* AppDelegate.m */,
+				4E259E1B1F19EFD7002F9105 /* ViewController.h */,
+				4E259E1C1F19EFD7002F9105 /* ViewController.m */,
+				4E259E1E1F19EFD7002F9105 /* Main.storyboard */,
+				4E259E211F19EFD7002F9105 /* Assets.xcassets */,
+				4E259E231F19EFD7002F9105 /* LaunchScreen.storyboard */,
+				4E259E261F19EFD7002F9105 /* Info.plist */,
+				4E259E151F19EFD7002F9105 /* Supporting Files */,
+			);
+			path = CAShapeLayerDemo;
+			sourceTree = "<group>";
+		};
+		4E259E151F19EFD7002F9105 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4ED233191F1C915A00F58D4F /* image */,
+				4E259E161F19EFD7002F9105 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E259E2E1F19EFD7002F9105 /* CAShapeLayerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E259E2F1F19EFD7002F9105 /* CAShapeLayerDemoTests.m */,
+				4E259E311F19EFD7002F9105 /* Info.plist */,
+			);
+			path = CAShapeLayerDemoTests;
+			sourceTree = "<group>";
+		};
+		4E259E391F19EFD7002F9105 /* CAShapeLayerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E259E3A1F19EFD7002F9105 /* CAShapeLayerDemoUITests.m */,
+				4E259E3C1F19EFD7002F9105 /* Info.plist */,
+			);
+			path = CAShapeLayerDemoUITests;
+			sourceTree = "<group>";
+		};
+		4E259E481F19F030002F9105 /* ViewMask */ = {
+			isa = PBXGroup;
+			children = (
+				4E259E491F19F064002F9105 /* CAShapeLayer+ViewMask.h */,
+				4E259E4A1F19F064002F9105 /* CAShapeLayer+ViewMask.m */,
+			);
+			name = ViewMask;
+			path = ../ViewMask;
+			sourceTree = "<group>";
+		};
+		4E259E4C1F1A0181002F9105 /* CircleProgress */ = {
+			isa = PBXGroup;
+			children = (
+				4ED233161F1C4C2900F58D4F /* CircleView.h */,
+				4ED233171F1C4C2900F58D4F /* CircleView.m */,
+			);
+			name = CircleProgress;
+			path = ../CircleProgress;
+			sourceTree = "<group>";
+		};
+		4E69C81E1F3D4F2A008CE2ED /* ProgressVC */ = {
+			isa = PBXGroup;
+			children = (
+				4E69C81F1F3D4F82008CE2ED /* MaskViewController.h */,
+				4E69C8201F3D4F82008CE2ED /* MaskViewController.m */,
+				4E69C8221F3D4FC1008CE2ED /* CircleProgressViewController.h */,
+				4E69C8231F3D4FC1008CE2ED /* CircleProgressViewController.m */,
+				4E69C8251F3D4FD2008CE2ED /* ARCViewController.h */,
+				4E69C8261F3D4FD2008CE2ED /* ARCViewController.m */,
+				4E69C8281F3D52B7008CE2ED /* ColoredCircleViewController.h */,
+				4E69C8291F3D52B7008CE2ED /* ColoredCircleViewController.m */,
+			);
+			path = ProgressVC;
+			sourceTree = "<group>";
+		};
+		4E69C82B1F3D5865008CE2ED /* ColoredCircle */ = {
+			isa = PBXGroup;
+			children = (
+				4E69C82C1F3D5886008CE2ED /* ColoredCircleProgressView.h */,
+				4E69C82D1F3D5886008CE2ED /* ColoredCircleProgressView.m */,
+			);
+			name = ColoredCircle;
+			path = ../ColoredCircle;
+			sourceTree = "<group>";
+		};
+		4E69C82F1F3D58FB008CE2ED /* CustomProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				4E259E481F19F030002F9105 /* ViewMask */,
+				4E259E4C1F1A0181002F9105 /* CircleProgress */,
+				4ED2331C1F1C946B00F58D4F /* ArcProgress */,
+				4E69C82B1F3D5865008CE2ED /* ColoredCircle */,
+			);
+			path = CustomProgressView;
+			sourceTree = "<group>";
+		};
+		4ED233191F1C915A00F58D4F /* image */ = {
+			isa = PBXGroup;
+			children = (
+				4ED2331A1F1C918000F58D4F /* sunrise.jpg */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		4ED2331C1F1C946B00F58D4F /* ArcProgress */ = {
+			isa = PBXGroup;
+			children = (
+				4ED2331D1F1C949000F58D4F /* ArcProgress.h */,
+				4ED2331E1F1C949000F58D4F /* ArcProgress.m */,
+			);
+			name = ArcProgress;
+			path = ../ArcProgress;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E259E111F19EFD7002F9105 /* CAShapeLayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E259E3F1F19EFD7002F9105 /* Build configuration list for PBXNativeTarget "CAShapeLayerDemo" */;
+			buildPhases = (
+				4E259E0E1F19EFD7002F9105 /* Sources */,
+				4E259E0F1F19EFD7002F9105 /* Frameworks */,
+				4E259E101F19EFD7002F9105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAShapeLayerDemo;
+			productName = CAShapeLayerDemo;
+			productReference = 4E259E121F19EFD7002F9105 /* CAShapeLayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E259E2A1F19EFD7002F9105 /* CAShapeLayerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E259E421F19EFD7002F9105 /* Build configuration list for PBXNativeTarget "CAShapeLayerDemoTests" */;
+			buildPhases = (
+				4E259E271F19EFD7002F9105 /* Sources */,
+				4E259E281F19EFD7002F9105 /* Frameworks */,
+				4E259E291F19EFD7002F9105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E259E2D1F19EFD7002F9105 /* PBXTargetDependency */,
+			);
+			name = CAShapeLayerDemoTests;
+			productName = CAShapeLayerDemoTests;
+			productReference = 4E259E2B1F19EFD7002F9105 /* CAShapeLayerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E259E351F19EFD7002F9105 /* CAShapeLayerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E259E451F19EFD7002F9105 /* Build configuration list for PBXNativeTarget "CAShapeLayerDemoUITests" */;
+			buildPhases = (
+				4E259E321F19EFD7002F9105 /* Sources */,
+				4E259E331F19EFD7002F9105 /* Frameworks */,
+				4E259E341F19EFD7002F9105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E259E381F19EFD7002F9105 /* PBXTargetDependency */,
+			);
+			name = CAShapeLayerDemoUITests;
+			productName = CAShapeLayerDemoUITests;
+			productReference = 4E259E361F19EFD7002F9105 /* CAShapeLayerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E259E0A1F19EFD7002F9105 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = CCD;
+				TargetAttributes = {
+					4E259E111F19EFD7002F9105 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 56KW6FEQ3J;
+						ProvisioningStyle = Automatic;
+					};
+					4E259E2A1F19EFD7002F9105 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4E259E111F19EFD7002F9105;
+					};
+					4E259E351F19EFD7002F9105 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4E259E111F19EFD7002F9105;
+					};
+				};
+			};
+			buildConfigurationList = 4E259E0D1F19EFD7002F9105 /* Build configuration list for PBXProject "CAShapeLayerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E259E091F19EFD7002F9105;
+			productRefGroup = 4E259E131F19EFD7002F9105 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E259E111F19EFD7002F9105 /* CAShapeLayerDemo */,
+				4E259E2A1F19EFD7002F9105 /* CAShapeLayerDemoTests */,
+				4E259E351F19EFD7002F9105 /* CAShapeLayerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E259E101F19EFD7002F9105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E259E251F19EFD7002F9105 /* LaunchScreen.storyboard in Resources */,
+				4E259E221F19EFD7002F9105 /* Assets.xcassets in Resources */,
+				4E259E201F19EFD7002F9105 /* Main.storyboard in Resources */,
+				4ED2331B1F1C918000F58D4F /* sunrise.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E259E291F19EFD7002F9105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E259E341F19EFD7002F9105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E259E0E1F19EFD7002F9105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E69C82E1F3D5886008CE2ED /* ColoredCircleProgressView.m in Sources */,
+				4E259E1D1F19EFD7002F9105 /* ViewController.m in Sources */,
+				4ED2331F1F1C949000F58D4F /* ArcProgress.m in Sources */,
+				4ED233181F1C4C2900F58D4F /* CircleView.m in Sources */,
+				4E69C8211F3D4F82008CE2ED /* MaskViewController.m in Sources */,
+				4E259E1A1F19EFD7002F9105 /* AppDelegate.m in Sources */,
+				4E69C82A1F3D52B7008CE2ED /* ColoredCircleViewController.m in Sources */,
+				4E259E4B1F19F064002F9105 /* CAShapeLayer+ViewMask.m in Sources */,
+				4E69C8271F3D4FD2008CE2ED /* ARCViewController.m in Sources */,
+				4E259E171F19EFD7002F9105 /* main.m in Sources */,
+				4E69C8241F3D4FC1008CE2ED /* CircleProgressViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E259E271F19EFD7002F9105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E259E301F19EFD7002F9105 /* CAShapeLayerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E259E321F19EFD7002F9105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E259E3B1F19EFD7002F9105 /* CAShapeLayerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E259E2D1F19EFD7002F9105 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E259E111F19EFD7002F9105 /* CAShapeLayerDemo */;
+			targetProxy = 4E259E2C1F19EFD7002F9105 /* PBXContainerItemProxy */;
+		};
+		4E259E381F19EFD7002F9105 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E259E111F19EFD7002F9105 /* CAShapeLayerDemo */;
+			targetProxy = 4E259E371F19EFD7002F9105 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E259E1E1F19EFD7002F9105 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E259E1F1F19EFD7002F9105 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E259E231F19EFD7002F9105 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E259E241F19EFD7002F9105 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E259E3D1F19EFD7002F9105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E259E3E1F19EFD7002F9105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E259E401F19EFD7002F9105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 56KW6FEQ3J;
+				INFOPLIST_FILE = CAShapeLayerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ccd.global.CAShapeLayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4E259E411F19EFD7002F9105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 56KW6FEQ3J;
+				INFOPLIST_FILE = CAShapeLayerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ccd.global.CAShapeLayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4E259E431F19EFD7002F9105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CAShapeLayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ccd.global.CAShapeLayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAShapeLayerDemo.app/CAShapeLayerDemo";
+			};
+			name = Debug;
+		};
+		4E259E441F19EFD7002F9105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CAShapeLayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ccd.global.CAShapeLayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAShapeLayerDemo.app/CAShapeLayerDemo";
+			};
+			name = Release;
+		};
+		4E259E461F19EFD7002F9105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CAShapeLayerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ccd.global.CAShapeLayerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CAShapeLayerDemo;
+			};
+			name = Debug;
+		};
+		4E259E471F19EFD7002F9105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CAShapeLayerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ccd.global.CAShapeLayerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CAShapeLayerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E259E0D1F19EFD7002F9105 /* Build configuration list for PBXProject "CAShapeLayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E259E3D1F19EFD7002F9105 /* Debug */,
+				4E259E3E1F19EFD7002F9105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E259E3F1F19EFD7002F9105 /* Build configuration list for PBXNativeTarget "CAShapeLayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E259E401F19EFD7002F9105 /* Debug */,
+				4E259E411F19EFD7002F9105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E259E421F19EFD7002F9105 /* Build configuration list for PBXNativeTarget "CAShapeLayerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E259E431F19EFD7002F9105 /* Debug */,
+				4E259E441F19EFD7002F9105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E259E451F19EFD7002F9105 /* Build configuration list for PBXNativeTarget "CAShapeLayerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E259E461F19EFD7002F9105 /* Debug */,
+				4E259E471F19EFD7002F9105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E259E0A1F19EFD7002F9105 /* Project object */;
+}
